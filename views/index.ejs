@@ -2,7 +2,7 @@
 
   <div class="container">
     <div class="panel panel-default">
-      <div class="panel-heading">Log Viewer</div>
+      <div class="panel-heading">Log Viewer 2</div>
       <div class="panel-body" id="log-window">No logs to show</div>
     </div>
     <h1><%= title %></h1>
@@ -10,6 +10,6 @@
     <br>
     <a href="/settings">Settings</a>
   </div>
+  <input type="hidden" id="logFilePath" value="<%= logFile %>">
   <script src="/javascripts/log-viewer.js"></script>
-
 <%- include("footer") %>
